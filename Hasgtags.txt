@@ -1,0 +1,21 @@
+#Java #100DaysOfCode #100daysofcode #100days #100diasdecodigo #100dayschallenge #100dayscoding #coding #CrescimentoPessoal #DesenvolvimentoPessoal #Programação #CodingChallenge #ProgramacaoJava #CodeNewbie #JavaDeveloper #TechSkills
+
+Desafio de 100 dias codando em Java.
+
+
+
+Seguindo o desafio hoje vou compartilhar aqui a resolução de alguns exercícios utilizando uma estrutura de dados, o "array". 
+
+
+
+Um array é uma variável que pode armazenar vários dados de mesmo valor, e através de seu índice podemos acessar o valor armazenado. Ok más como funciona o armazenamento do array na memória? 
+
+
+
+Ao definir o tamanho do array ele aloca um determinado espaço da memória onde seu conteúdo fique em sequencia sendo um adjacente ao outro. Neste caso o indice do array se torna seu ponteiro nos permitindo acessar qualquer elemento dele sem ter a necessidade de percorrer o array para encontrar o dado desejado. Mas nem sempre usaremos ele desta forma, porem esse é um de seus pontos fortes.
+
+
+
+100 dias codando em Java 💻 
+
+Dia 6 - 100

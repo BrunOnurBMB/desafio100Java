@@ -10,8 +10,7 @@ public class BelowAVG {
 		Scanner sc = new Scanner(System.in);
 		
 		int N;
-		double avg;
-		avg = 0;
+		double avg = 0;
 		
 		System.out.println("How many elemnts does the array have?");
 		N = sc.nextInt();

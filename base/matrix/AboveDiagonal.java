@@ -30,7 +30,7 @@ public class AboveDiagonal {
 				}
 			}
 		
-		System.out.println("Sum of the elements above the principal diagonal = " + soma);
+		System.out.println("Sum of the elements above the principal diagonal = " + sum);
 		
 		sc.close();
 	}
