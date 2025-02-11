@@ -15,8 +15,10 @@ import entities.enums.OrderStatus;
 public class Application {
 
 	public static void main(String[] args) throws ParseException {
+		
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		
 		System.out.println("Enter cliente data: ");
@@ -42,6 +44,7 @@ public class Application {
 		System.out.println("How many items to this order? ");
 		int n = sc.nextInt();
 		sc.nextLine();
+		
 		for (int i = 0; i < n; i++) {
 			System.out.println("Enter #" + (i+1) + " item data:");
 			System.out.print("Product name: ");
@@ -66,7 +69,5 @@ public class Application {
 		System.out.println(order);
 		
 		sc.close();
-
 	}
-
 }
