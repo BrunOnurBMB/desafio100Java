@@ -13,5 +13,4 @@ public class PaypalService implements OnlinePaymentService{
 		double tax = 0.01 * months;
 		return amount * tax;
 	}
-	
 }

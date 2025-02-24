@@ -40,7 +40,6 @@ public class Program {
 		for(Installment installment : contract.getInstalments()) {
 			System.out.println(installment);
 		}
-		
 		sc.close();
 	}
 }

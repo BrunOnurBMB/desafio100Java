@@ -1,21 +1,67 @@
-#Java #100DaysOfCode #100daysofcode #100days #100diasdecodigo #100dayschallenge #100dayscoding #coding #CrescimentoPessoal #DesenvolvimentoPessoal #Programação #CodingChallenge #ProgramacaoJava #CodeNewbie #JavaDeveloper #TechSkills
-
 Desafio de 100 dias codando em Java.
 
 
 
-Seguindo o desafio hoje vou compartilhar aqui a resolução de alguns exercícios utilizando uma estrutura de dados, o "array". 
+GitHub do desafio: https://lnkd.in/dW84tZKG
 
 
 
-Um array é uma variável que pode armazenar vários dados de mesmo valor, e através de seu índice podemos acessar o valor armazenado. Ok más como funciona o armazenamento do array na memória? 
+Seguindo o desafio hoje vou compartilhar aqui o que aprendi em Java utilizando a estrutura de controle de fluxo "try-catch".
 
 
 
-Ao definir o tamanho do array ele aloca um determinado espaço da memória onde seu conteúdo fique em sequencia sendo um adjacente ao outro. Neste caso o indice do array se torna seu ponteiro nos permitindo acessar qualquer elemento dele sem ter a necessidade de percorrer o array para encontrar o dado desejado. Mas nem sempre usaremos ele desta forma, porem esse é um de seus pontos fortes.
+O "try-catch" é uma estrutura usada para tratar exceções, ou seja, situações inesperadas que podem ocorrer durante a execução do seu código. Imagine que você defina que um campo deve receber um número, como um "int" ou "float", mas o usuário entra com letras. O "try-catch" serve exatamente para evitar que o programa quebre, capturando e tratando esse erro de forma adequada.
 
 
 
-100 dias codando em Java 💻 
+Sua estrutura básica com exemplo da situação acima:
 
-Dia 6 - 100
+try {
+
+  int numero = Integer.parseInt("abc"); // Erro gerado, pois "abc" não é um número
+
+} catch (NumberFormatException e) {
+
+  System.out.println("Erro: " + e.getMessage()); // Aqui tratamos o erro
+
+}
+
+Nessa estrutura, o bloco "try" tenta executar um código, e, caso uma exceção aconteça, ela será capturada no bloco "catch", onde podemos tratá-la.
+
+
+
+Você também pode usar o bloco "finally", que garante que o código dentro dele será executado, independentemente de uma exceção ter ocorrido ou não. Isso é útil, por exemplo, para liberar recursos ou fechar conexões:
+
+
+
+ Sua estrutura:
+
+try {
+
+  // Código que pode lançar uma exceção
+
+} catch (SQLException e) {
+
+  // Tratamento da exceção
+
+} finally {
+
+  // Fechar conexão com o banco
+
+}
+
+
+
+Embora o "try-catch" seja eficaz para capturar exceções que geralmente são problemas previstos em que o programador pode tratar, ele não pode lidar com "Errors". "Errors" são problemas mais graves, como falta de memória ou queda de energia, e não devem ser tratados diretamente pela aplicação.
+
+
+
+100 dias fazendo codigo em Java 💻 
+
+
+
+Dia 10 - 100;
+
+-------------------------------------------------------------------------------------
+
+#CodeChallenge #100DaysOfCode #100daysofcode #100days #100diasdecodigo #100dayschallenge #100dayscoding #coding #CrescimentoPessoal #DesenvolvimentoPessoal #Programação #CodingChallenge #ProgramacaoJava #CodeNewbie #JavaDeveloper #TechSkills #DevCommunity #CodeWithMe #TechJobs #JobSearch #JavaProgramming #LearnToCode #TechCommunity #SoftwareDevelopment #LearningJava

@@ -34,8 +34,5 @@ public class Installment {
 	@Override
 	public String toString() {
 		return date.format(fmt) + " - " + String.format("%.2f", amount);
-	}
-	
-	
-	
+	}	
 }
